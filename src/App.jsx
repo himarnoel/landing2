@@ -13,11 +13,21 @@ function App() {
           <img src="logo.png" alt="" className="mt-4" />
           <div className="h-[20rem] w-[20rem]  rounded-full bg-[#7BD2E7] -mt-52"></div>
         </div>
-        <div className="mt-10 flex items-center justify-between w-full px-64 relative">
-          <p className="text-xl text-[#4550E4]">
-            Welcome to STEM Teacher Training
-          </p>
-          <img src="side.png" alt="" className="w-32" />
+        <div className="mt-10 h-screen flex  justify-between w-full px-24 relative max-w-[1024px] mx-auto ">
+          <div className="flex flex-col ">
+            <p className="text-[#4550E4] font-medium text-2xl">
+              Welcome to STEM Teacher Training
+            </p>
+            <p className="text-[4.6rem] leading-[1.2] font-medium">Transforming <br /> Classrooms  for the <br /> Next Generation</p>
+          </div>
+          <img
+            src="side.png"
+            alt=""
+            className="absolute w-[35rem] block  right-0 top-0"
+          />
+        </div>
+        <div className="mt-10 flex items-center px-10 max-w-[1024px] mx-auto ">
+          sdfsd
         </div>
       </div>
     </>
