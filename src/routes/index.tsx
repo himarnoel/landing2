@@ -10,7 +10,7 @@ import MissedIt from "../pages/missed-it";
 
 export default function Router() {
   return (
-    <React.Suspense fallback={<Loader />}>
+ 
       <BrowserRouter>
         <Routes>
           <Route Component={MainLayout}>
@@ -22,6 +22,6 @@ export default function Router() {
           </Route>
         </Routes>
       </BrowserRouter>
-    </React.Suspense>
+
   );
 }
