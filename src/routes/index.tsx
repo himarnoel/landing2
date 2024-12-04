@@ -14,11 +14,11 @@ export default function Router() {
       <BrowserRouter>
         <Routes>
           <Route Component={MainLayout}>
-            <Route path="*" Component={NotFound} />
 
             <Route path="/" Component={Home} />
             <Route path="/thank-you" Component={Configm} />
             <Route path="/missed-it" Component={MissedIt} />
+            <Route path="*" Component={NotFound} />
           </Route>
         </Routes>
       </BrowserRouter>
