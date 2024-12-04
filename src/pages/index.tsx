@@ -125,19 +125,15 @@ export default function Page() {
           </p>
           <p className="text-6xl mt-14 text-center ">F.A.Qs</p>
           <div className="flex flex-col mt-10 text-2xl font-medium">
-            <p className="">1.Q: What is the Kidpreneur Bootcamp?</p>
+            <p className="">1.Q: What is the AI training about?</p>
             <p className=" ">
-              A: The Kidpreneur Bootcamp is a fun and interactive program
-              designed to teach kids the basics of entrepreneurship and help
-              them develop their own business ideas.
+              A: The training introduces kids to the basics of artificial intelligence, how it works, and how AI is used in creative fields such as design, art, and storytelling. It’s designed to be fun and interactive!
             </p>
           </div>
           <div className="flex flex-col mt-10 text-2xl font-medium">
-            <p className="">2.Q: Who is the bootcamp for?</p>
+            <p className="">2.Q: Who can join the training?</p>
             <p className=" ">
-              A: The bootcamp is for kids aged 8–16 who are interested in
-              entrepreneurship and want to learn how to start their own
-              business.
+              A: The training is open to kids aged 10 to 16 who are curious about technology and AI. No prior experience is needed, just an interest in learning and exploring AI.
             </p>
           </div>{" "}
           <div className="flex flex-col mt-10 text-2xl font-medium">
@@ -151,17 +147,13 @@ export default function Page() {
               4.Q:What will the kids learn during the training?
             </p>
             <p className=" ">
-              A: Participants will learn about AI concepts, how AI is used in
-              creative fields, hands-on activities related to AI, and how to
-              create basic AI projects. They'll also explore AI tools and
-              technologies used by professionals.
+              A: Participants will learn about AI concepts, how AI is used in creative fields, hands-on activities related to AI, and how to create basic AI projects. They'll also explore AI tools and technologies used by professionals.
             </p>
           </div>
           <div className="flex flex-col mt-10 text-2xl font-medium">
             <p className="">5.Q: Is the training virtual or in person?</p>
             <p className=" ">
-              A: The training will be conducted virtually over two days,
-              allowing kids to join from the comfort of their home.
+              A: The training will be conducted virtually over two days, allowing kids to join from the comfort of their home.
             </p>
           </div>
           <div className="flex flex-col mt-10 text-2xl font-medium">
@@ -175,17 +167,13 @@ export default function Page() {
               7.Q: Do I need any special equipment or software for the training?
             </p>
             <p className=" ">
-              A: Kids will need a computer or tablet with an internet
-              connection. Most of the tools we use are web-based, so no special
-              software is required.
+              A: Kids will need a computer or tablet with an internet connection. Most of the tools we use are web-based, so no special software is required.
             </p>
           </div>
           <div className="flex flex-col mt-10 text-2xl font-medium">
             <p className="">8.Q: Will there be any assignments or homework?</p>
             <p className=" ">
-              A: Yes, there will be a few fun activities and projects to
-              reinforce the learning. However, these will be light and designed
-              to engage kids, not overwhelm them.
+              A: Yes, there will be a few fun activities and projects to reinforce the learning. However, these will be light and designed to engage kids, not overwhelm them.
             </p>
           </div>
           <div className="flex flex-col mt-10 text-2xl font-medium">
@@ -193,15 +181,13 @@ export default function Page() {
               9.Q: Will I receive a certificate after completing the training?
             </p>
             <p className=" ">
-              A: No, there will be no certificate of completion for this
-              training.
+              A:No, there will be no certificate of completion for this training.
             </p>
           </div>
           <div className="flex flex-col mt-10 text-2xl font-medium">
             <p className="">10.Q: How do I register for the training?</p>
             <p className=" ">
-              A: Registration and payment can be done by clicking on the
-              registration icon and filling out the required details.
+              A: Registration and payment can be done by clicking on the registration icon and filling out the required details.
             </p>
           </div>
         </div>
