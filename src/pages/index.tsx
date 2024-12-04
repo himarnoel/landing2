@@ -64,11 +64,11 @@ export default function Page() {
         </div>
       </Hero>
       <Overview>
-        <div className="w-full relative rounded-[2em] bg-white shadow-md gap-10 flex flex-col p-10">
+        <div className="w-full relative rounded-[2em]  bg-white shadow-md gap-10 flex flex-col p-10">
           <img
             src={microscopeIcon}
             alt=""
-            className="h-20 absolute left-3/4 md:left-1/5 -top-6 md:top-auto md:bottom-0 translate-y-1/2"
+            className="h-20 lg:h-[10rem] translate-y-1/2 lg:translate-y-[26%] lg:left-10 object-contain absolute left-5 -top-6 md:top-auto md:bottom-0 "
           />
           <img
             src={smilyIcon}
@@ -94,27 +94,33 @@ export default function Page() {
 
           <div className="flex gap-2 items-center justify-center">
             {engagements.map((_, id) => (
-              <input
+              <div
                 key={id}
-                type="radio"
-                checked={id === index}
-                onChange={() => setIndex(id)}
-              />
+                onClick={() => setIndex(id)}
+                className={`flex h-2 w-2  rounded-full ${
+                  id === index ? "bg-[#FF6130]" : "bg-[#F1F1F1]"
+                }`}
+              >
+                {" "}
+              </div>
             ))}
           </div>
         </div>
 
-        <p className="font-bold mt-10 md:pl-20 flex-none w-full text-md md:text-2xl text-gray-700 text-justify md:text-center">
-          STEM Teacher Training is designed to empower educators with the skills
-          to thoughtfully connect different subjects, so that the knowledge from
-          each one complements and enriches the others, creating a well-rounded
-          and meaningful learning experience for students.
-        </p>
+        <div className="w-full flex items-end justify-end ">
+          <p className="font-semibold mt-10  flex-none max-w-[800px]  w-full text-md md:text-2xl  text-justify md:text-start">
+            STEM Teacher Training is designed to empower educators with the
+            skills to thoughtfully connect different subjects, so that the
+            knowledge from each one complements and enriches the others,
+            creating a well-rounded and meaningful learning experience for
+            students.s
+          </p>
+        </div>
       </Overview>
       <Expect />
       <Cta />
       <Waitlist />
-      
+
       <WhyUs />
       <section className="relative bg-[#FBCD78] my-20">
         <div className="w-full "></div>
@@ -127,13 +133,18 @@ export default function Page() {
           <div className="flex flex-col mt-10 text-2xl font-medium">
             <p className="">1.Q: What is the AI training about?</p>
             <p className=" ">
-              A: The training introduces kids to the basics of artificial intelligence, how it works, and how AI is used in creative fields such as design, art, and storytelling. It’s designed to be fun and interactive!
+              A: The training introduces kids to the basics of artificial
+              intelligence, how it works, and how AI is used in creative fields
+              such as design, art, and storytelling. It’s designed to be fun and
+              interactive!
             </p>
           </div>
           <div className="flex flex-col mt-10 text-2xl font-medium">
             <p className="">2.Q: Who can join the training?</p>
             <p className=" ">
-              A: The training is open to kids aged 10 to 16 who are curious about technology and AI. No prior experience is needed, just an interest in learning and exploring AI.
+              A: The training is open to kids aged 10 to 16 who are curious
+              about technology and AI. No prior experience is needed, just an
+              interest in learning and exploring AI.
             </p>
           </div>{" "}
           <div className="flex flex-col mt-10 text-2xl font-medium">
@@ -147,13 +158,17 @@ export default function Page() {
               4.Q:What will the kids learn during the training?
             </p>
             <p className=" ">
-              A: Participants will learn about AI concepts, how AI is used in creative fields, hands-on activities related to AI, and how to create basic AI projects. They'll also explore AI tools and technologies used by professionals.
+              A: Participants will learn about AI concepts, how AI is used in
+              creative fields, hands-on activities related to AI, and how to
+              create basic AI projects. They'll also explore AI tools and
+              technologies used by professionals.
             </p>
           </div>
           <div className="flex flex-col mt-10 text-2xl font-medium">
             <p className="">5.Q: Is the training virtual or in person?</p>
             <p className=" ">
-              A: The training will be conducted virtually over two days, allowing kids to join from the comfort of their home.
+              A: The training will be conducted virtually over two days,
+              allowing kids to join from the comfort of their home.
             </p>
           </div>
           <div className="flex flex-col mt-10 text-2xl font-medium">
@@ -167,13 +182,17 @@ export default function Page() {
               7.Q: Do I need any special equipment or software for the training?
             </p>
             <p className=" ">
-              A: Kids will need a computer or tablet with an internet connection. Most of the tools we use are web-based, so no special software is required.
+              A: Kids will need a computer or tablet with an internet
+              connection. Most of the tools we use are web-based, so no special
+              software is required.
             </p>
           </div>
           <div className="flex flex-col mt-10 text-2xl font-medium">
             <p className="">8.Q: Will there be any assignments or homework?</p>
             <p className=" ">
-              A: Yes, there will be a few fun activities and projects to reinforce the learning. However, these will be light and designed to engage kids, not overwhelm them.
+              A: Yes, there will be a few fun activities and projects to
+              reinforce the learning. However, these will be light and designed
+              to engage kids, not overwhelm them.
             </p>
           </div>
           <div className="flex flex-col mt-10 text-2xl font-medium">
@@ -181,13 +200,15 @@ export default function Page() {
               9.Q: Will I receive a certificate after completing the training?
             </p>
             <p className=" ">
-              A:No, there will be no certificate of completion for this training.
+              A:No, there will be no certificate of completion for this
+              training.
             </p>
           </div>
           <div className="flex flex-col mt-10 text-2xl font-medium">
             <p className="">10.Q: How do I register for the training?</p>
             <p className=" ">
-              A: Registration and payment can be done by clicking on the registration icon and filling out the required details.
+              A: Registration and payment can be done by clicking on the
+              registration icon and filling out the required details.
             </p>
           </div>
         </div>
