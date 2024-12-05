@@ -37,8 +37,7 @@ export default function Page() {
           </span>
 
           <h2 className="text-xl md:text-8xl lg:text-[4.8rem] lg:leading-[1.15]  font-semibold">
-            Transforming  Classrooms for
-             the Next Generation
+            Transforming Classrooms for the Next Generation
           </h2>
 
           <div className="  md:w-[90%] z-10 bg-white rounded-xl mt-10">
@@ -51,7 +50,6 @@ export default function Page() {
               to master the act of using real-life context to inspire children
               to problem solve, think critically and enjoy collaborating
             </p>
-           
           </div>
 
           <a
@@ -121,12 +119,33 @@ export default function Page() {
       <Waitlist />
 
       <WhyUs />
-     
+
       <Enroll />
       <section className="relative bg-[#DBEAFE] -z-10 py-20">
         <div className="w-full "></div>
         <div className="w-full font-semibold px-4 xl:max-w-[1200px] mx-auto min-h-screen  py-10 pb-20">
-          <p className="text-6xl  text-center ">F.A.Qs</p>
+          <p className="text-6xl  text-start ">F.A.Qs</p>
+          <p className="mt-10 text-2xl mb-2">General Information</p>
+          {/* {faqGroups[0].map((faq, i) => (
+            <div key={i} className="flex flex-col gap-4 text-2xl font-medium">
+              <p className="flex gap-1">
+                <span className="">{faq.id}.</span>
+                {faq.question}
+              </p>
+              <p className="text-lg">{faq.answer}</p>
+            </div>
+          ))}
+
+          <p className="mt-10 mb-2 text-2xl">Course Details</p>
+          {faqGroups[1].map((faq, i) => (
+            <div key={i} className="flex flex-col gap-4 text-2xl font-medium">
+              <p className="flex gap-1">
+                <span className="">{faq.id}.</span>
+                {faq.question}
+              </p>
+              <p className="text-lg">{faq.answer}</p>
+            </div>
+          ))} */}
           <Splide
             options={{
               type: "loop",

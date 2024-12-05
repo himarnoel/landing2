@@ -52,65 +52,78 @@ export const faqGroups = [
   [
     {
       id:1,
-      question: "What is the AI training about?",
+      question: "What is the STEM Teacher Training program about?",
       answer:
-        "The training introduces kids to the basics of artificial intelligence, how it works, and how AI is used in creative fields such as design, art, and storytelling. It’s designed to be fun and interactive!",
+        "The training program is designed to equip teachers with the skills, strategies, and tools to implement STEM education effectively in their classrooms through hands-on and inquiry-based approaches.",
     },
     {
       id:2,
-      question: "Who can join the training?",
+      question: "Who is this training for?",
       answer:
-        "The training is open to kids aged 10 to 16 who are curious about technology and AI. No prior experience is needed, just an interest in learning and exploring AI.",
+        "This training is ideal for primary and secondary school teachers who want to enhance their understanding and application of STEM education in their schools.",
     },
     {
       id:3,
-      question: "How much does the training cost?",
-      answer: "The fee for the 2-day virtual training is N5,000.",
+      question: "What topics will the training cover?",
+      answer: "Topics include an overview of STEM education, strategies for implementing STEM in classrooms, transdisciplinary lesson examples, the use of AI tools in STEM, and methods for monitoring and measuring progress.",
     },
     {
       id:4,
-      question: "What will the kids learn during the training?",
+      question: "How long is the entire training program?",
       answer:
-        "Participants will learn about AI concepts, how AI is used in creative fields, hands-on activities related to AI, and how to create basic AI projects. They'll also explore AI tools and technologies used by professionals.",
+        "The program consists of multiple courses; the entire duration of the training is 7 weeks.",
     },
     {
       id:5,
-      question: "Is the training virtual or in person?",
+      question: "Is the training online or in-person?",
       answer:
-        "The training will be conducted virtually over two days, allowing kids to join from the comfort of their home.",
+        " The training is entirely online, making it accessible to teachers everywhere.",
+    },
+    {
+      id:6,
+      question: "Who are the speakers or trainers for the webinars?",
+      answer:
+        "The webinars feature experienced international educators and industry professionals who are passionate about transforming education.",
     },
   ],
   [
-    {
-      id:6,
-      question: "What time will the training start and end?",
-      answer:
-        "The training starts at 10:00 AM and ends at 11:30 AM each day.",
-    },
+   
     {
       id:7,
       question:
-        "Do I need any special equipment or software for the training?",
+        "How much does the training cost?",
       answer:
-        "Kids will need a computer or tablet with an internet connection. Most of the tools we use are web-based, so no special software is required.",
+        "The cost of the training program is N50,000 fifty thousand naira only. varies Details are available on the registration page.",
     },
     {
       id:8,
-      question: "Will there be any assignments or homework?",
+      question: "How do I make payment for the training?",
       answer:
-        "Yes, there will be a few fun activities and projects to reinforce the learning. However, these will be light and designed to engage kids, not overwhelm them.",
+        "Payments can be made via bank transfer, mobile money, or online payment platforms. Instructions will be provided during registration.",
     },
     {
       id:9,
-      question: "Will I receive a certificate after completing the training?",
+      question: "Are there discounts available for group registrations?",
       answer:
-        "No, there will be no certificate of completion for this training.",
+        "Yes, we offer discounts for schools registering multiple teachers. Contact us for more information.",
     },
     {
       id:10,
       question: "How do I register for the training?",
       answer:
-        "Registration and payment can be done by clicking on the registration icon and filling out the required details.",
+        "Visit our website and complete the registration form. Payment instructions will follow.",
+    },
+    {
+      id:11,
+      question: "Will I receive a certificate after completing the training?",
+      answer:
+        "Yes, all participants who complete the training will receive a certificate of completion.",
+    },
+    {
+      id:12,
+      question: "How will this training benefit me as a teacher?",
+      answer:
+        "This training will provide you with innovative strategies to engage students, integrate STEM across subjects, and use technology effectively in the classroom.",
     },
   ],
 ];
