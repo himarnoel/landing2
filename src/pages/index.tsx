@@ -31,17 +31,17 @@ export default function Page() {
   return (
     <>
       <Hero image={mainHeroImage}>
-        <div className="flex flex-1 flex-col gap-10 text-center md:text-left w-full max-w-[600px] mt-10">
-          <span className="text-blue-normal text-xl md:text-3xl">
+        <div className="flex flesx-1 flex-col gap-2 text-center md:text-left w-full max-w-[700px] mt-10">
+          <span className="text-blue-normal text-xl md:text-3xl ">
             Welcome to STEM Teacher Training
           </span>
 
-          <h2 className="text-xl md:text-8xl lg:text-7xl leading-7 font-semibold">
-            Transforming <br /> Classrooms for
-            <br /> the Next Generation
+          <h2 className="text-xl md:text-8xl lg:text-[4.8rem] lg:leading-[1.15]  font-semibold">
+            Transforming  Classrooms for
+             the Next Generation
           </h2>
 
-          <div className="  md:w-4/5 z-10 bg-white rounded-xl">
+          <div className="  md:w-[90%] z-10 bg-white rounded-xl mt-10">
             <p className="z-50 text-sm md:text-base text-center md:p-4">
               This isn't your usual CPD, Oh No! <br />
               • It's a 360 degree transformative experience where you are
@@ -56,7 +56,7 @@ export default function Page() {
 
           <a
             href="#waitlist-form"
-            className="border-none outline-none self-center bg-blue-normal text-white flex items-center gap-2 hover:gap-5 px-8 py-2 md:text-lg rounded-full transition-all"
+            className="border-none outline-none w-fit mx-auto mt-8 bg-blue-normal text-white flex items-center gap-2 hover:gap-5 px-8 py-2 md:text-lg rounded-full transition-all"
           >
             Join the Waitlist <FaArrowRightLong size={20} />
           </a>
