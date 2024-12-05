@@ -4,18 +4,19 @@ import { nodeIcon, enrollImage } from "../constants/media";
 
 export default function Enroll() {
   return (
-    <section id="enroll" className=" z-10 md:pt-10 md:pr-spacing-normal">
-      <div className="flex flex-wrap flex-row-reverse md:flex-row gap-4 px-10 md:translate-y-10 bg-white md:rounded-r-3xl">
-        <div className="flex gap-8 basis-80 relative md:ml-10">
+    <section id="enroll" className=" z-10 md:pt-10 md:pr-spacing-normal relative">
+      <div className="flex flex-wrap flex-row-reverse  relative z-50 md:flex-row gap-4 px-10 md:translate-y-10 bg-white md:rounded-r-3xl">
+        <div className="flex gap-8 basis-80 md:ml-10">
           <img
             src={nodeIcon}
             className=" mb-auto h-20 xl:h-[16rem] object-contain absolute right-10 md:relative md:right-auto"
           />
+        </div>
+       
           <img
             src={enrollImage}
-            className="min-h-80 md:h-96 xl:h-[20rem] absolute -bottom-20 -z-2 w-full md:w-auto mt-auto object-contain"
+            className="min-h-80 md:h-96 xl:h-[24rem] absolute left-64 bottom-0 -z-20 w-full md:w-auto mt-auto object-contain"
           />
-        </div>
 
         <div className="flex flex-1 flex-col basis-80 items-center md:items-end text-center md:text-right py-10 md:p-20 gap-10 justify-center">
           <h2 className="text-3xl font-bold md:text-5xl">
