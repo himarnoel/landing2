@@ -7,7 +7,7 @@ export default function Expect() {
   return (
     <section
       id="expect"
-      className="w-full flex flex-col items-center gap-10  px-spacing-small md:px-spacing-large lg:px-spacing-x-large"
+      className="w-full flex flex-col items-center gap-10 lg:mt-14 xl:mt-0  px-spacing-small md:px-spacing-large  xl:px-spacing-x-large"
     >
       <div className="w-full flex flex-col p-4 md:p-12 gap-20 rounded-3xl md:rounded-[4em] bg-[#FFE154]">
         <header className="w-full gap-4 flex flex-col text-center items-center">

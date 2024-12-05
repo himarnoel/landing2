@@ -31,12 +31,12 @@ export default function Page() {
   return (
     <>
       <Hero image={mainHeroImage}>
-        <div className="flex flesx-1 flex-col gap-2 text-center md:text-left w-full max-w-[700px] mt-10">
-          <span className="text-blue-normal text-xl md:text-3xl ">
+        <div className="flex flesx-1 flex-col gap-2 text-center md:text-left w-full lg:max-w-[400px] xl:max-w-[660px] mt-10">
+          <span className="text-blue-normal text-xl xl:text-3xl ">
             Welcome to STEM Teacher Training
           </span>
 
-          <h2 className="text-xl md:text-8xl lg:text-[4.8rem] lg:leading-[1.15]  font-semibold">
+          <h2 className="text-xl md:text-8xl lg:text-[3.8rem] xl:text-[4.8rem] lg:leading-[1.15]  font-semibold">
             Transforming Classrooms for the Next Generation
           </h2>
 
@@ -104,13 +104,13 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="w-full flex items-end justify-end ">
-          <p className="font-semibold mt-10  flex-none max-w-[800px]  w-full text-md md:text-2xl  text-justify md:text-start">
+        <div className="w-full flex items-end justify-end mt-10 lg:mt-24  xl:mt-10">
+          <p className="font-semibold   flex-none max-w-[800px]  w-full text-md md:text-2xl  text-justify md:text-start">
             STEM Teacher Training is designed to empower educators with the
             skills to thoughtfully connect different subjects, so that the
             knowledge from each one complements and enriches the others,
             creating a well-rounded and meaningful learning experience for
-            students.s
+            students.
           </p>
         </div>
       </Overview>
