@@ -18,7 +18,7 @@ export default function Expect() {
             you'll dive into
           </p>
         </header>
-        <div className="grid gap-2 gap-y-20 grid-cols-3 l">
+        <div className="grid gap-2 gap-y-10 lg:gap-y-20  lg:grid-cols-3 l">
           {expectations.map((item) => (
             <ExpectCard key={item.content} item={item} />
           ))}
