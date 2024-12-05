@@ -6,9 +6,8 @@ export default function Hero(props: React.PropsWithChildren<{ image: string }>) 
             {props.children}
         </div>
 
-        <div className=" right-32 absolute  -z-0 flex-1 md:flex-none basis-60 flex items-end justify-center">
-            {/* <div className="h-4/5 aspect-[4/6] absolute rounded-[4em] -z-10 bg-pink-normal"/> */}
-            <img src={props.image} className="h-full w-[35em] lg:w-[45rem] xl:w-[50rem] z-10 object-contain"/>
+        <div className="lg:right-32 lg:absolute -z-0 flex-1 md:flex-none basis-60 flex items-end justify-center">
+            <img src={props.image} className="h-full w-[35em] lg:w-[45rem] xl:w-[55rem] z-10 object-contain"/>
         </div>
     </section>
 }
