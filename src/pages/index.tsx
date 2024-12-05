@@ -143,12 +143,12 @@ export default function Page() {
             className="mt-2"
           >
             {faqGroups.map((group, index) => (
-              <SplideSlide key={index}>
+              <SplideSlide key={index} className={""}>
         
                 <div className="space-y-8">
                   {group.map((faq, i) => (
                     <div key={i} className="flex flex-col text-2xl font-medium">
-                      <p className="flex gap-1"><span className="">{i+1}.</span>{faq.question}</p>
+                      <p className="flex gap-1"><span className="">{faq.id}.</span>{faq.question}</p>
                       <p className="text-lg">{faq.answer}</p>
                     </div>
                   ))}
