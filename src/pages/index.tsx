@@ -36,7 +36,7 @@ export default function Page() {
             Welcome to STEM Teacher Training
           </span>
 
-          <h2 className="text-xl md:text-8xl lg:text-7xl font-semibold">
+          <h2 className="text-xl md:text-8xl lg:text-7xl leading-7 font-semibold">
             Transforming <br /> Classrooms for
             <br /> the Next Generation
           </h2>
