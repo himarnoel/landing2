@@ -31,17 +31,17 @@ export default function Page() {
   return (
     <>
       <Hero image={mainHeroImage}>
-        <div className="flex flex-1 flex-col gap-10 text-center md:text-left">
+        <div className="flex flex-1 flex-col gap-10 text-center md:text-left w-full max-w-[600px] mt-10">
           <span className="text-blue-normal text-xl md:text-3xl">
             Welcome to STEM Teacher Training
           </span>
 
-          <h2 className="text-xl md:text-8xl font-semibold">
+          <h2 className="text-xl md:text-8xl lg:text-7xl font-semibold">
             Transforming <br /> Classrooms for
             <br /> the Next Generation
           </h2>
 
-          <div className="relative mx-auto md:w-4/5 z-10">
+          <div className="  md:w-4/5 z-10 bg-white rounded-xl">
             <p className="z-50 text-sm md:text-base text-center md:p-4">
               This isn't your usual CPD, Oh No! <br />
               • It's a 360 degree transformative experience where you are
@@ -51,11 +51,7 @@ export default function Page() {
               to master the act of using real-life context to inspire children
               to problem solve, think critically and enjoy collaborating
             </p>
-            <img
-              src={whiteImage}
-              alt=""
-              className="w-full h-full absolute top-0 left-0 -z-10 hidden md:flex"
-            />
+           
           </div>
 
           <a
