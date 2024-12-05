@@ -105,7 +105,7 @@ export default function Page() {
         </div>
 
         <div className="w-full flex items-end justify-end mt-10 lg:mt-24  xl:mt-10">
-          <p className="font-semibold   flex-none max-w-[800px]  w-full text-md md:text-2xl  text-justify md:text-start">
+          <p className="font-medium   flex-none max-w-[800px]  w-full text-md md:text-2xl  text-justify md:text-start">
             STEM Teacher Training is designed to empower educators with the
             skills to thoughtfully connect different subjects, so that the
             knowledge from each one complements and enriches the others,
