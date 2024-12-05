@@ -28,22 +28,82 @@ export const engagements = [
 
 export const ctsa = [
     {
+        id:1,
         image: cta1Image,
         className: "bg-clay-normal",
         content: "Educators looking to make an impact through STEM and create meaningful, engaging lessons."
     },
     {
+        id:2,
         image: cta2Image,
         className: "bg-orange-normal",
         content: "Teachers from all subjects who want to integrate STEM into their curriculum, even if they don’t have a STEM background."
     },
     {
+        id:3,
         image: cta3Image,
         className: "bg-blue-normal",
         content: "School leaders and curriculum developers aiming to bring real-world, collaborative learning to their classrooms."
     },
 ];
 
+
+export const faqGroups = [
+    [
+      {
+        question: "What is the AI training about?",
+        answer:
+          "The training introduces kids to the basics of artificial intelligence, how it works, and how AI is used in creative fields such as design, art, and storytelling. It’s designed to be fun and interactive!",
+      },
+      {
+        question: "Who can join the training?",
+        answer:
+          "The training is open to kids aged 10 to 16 who are curious about technology and AI. No prior experience is needed, just an interest in learning and exploring AI.",
+      },
+      {
+        question: "How much does the training cost?",
+        answer: "The fee for the 2-day virtual training is N5,000.",
+      },
+      {
+        question: "What will the kids learn during the training?",
+        answer:
+          "Participants will learn about AI concepts, how AI is used in creative fields, hands-on activities related to AI, and how to create basic AI projects. They'll also explore AI tools and technologies used by professionals.",
+      },
+      {
+        question: "Is the training virtual or in person?",
+        answer:
+          "The training will be conducted virtually over two days, allowing kids to join from the comfort of their home.",
+      },
+    ],
+    [
+      {
+        question: "What time will the training start and end?",
+        answer:
+          "The training starts at 10:00 AM and ends at 11:30 AM each day.",
+      },
+      {
+        question:
+          "Do I need any special equipment or software for the training?",
+        answer:
+          "Kids will need a computer or tablet with an internet connection. Most of the tools we use are web-based, so no special software is required.",
+      },
+      {
+        question: "Will there be any assignments or homework?",
+        answer:
+          "Yes, there will be a few fun activities and projects to reinforce the learning. However, these will be light and designed to engage kids, not overwhelm them.",
+      },
+      {
+        question: "Will I receive a certificate after completing the training?",
+        answer:
+          "No, there will be no certificate of completion for this training.",
+      },
+      {
+        question: "How do I register for the training?",
+        answer:
+          "Registration and payment can be done by clicking on the registration icon and filling out the required details.",
+      },
+    ],
+  ];
 export const expectations = [
     {
         id: 1,

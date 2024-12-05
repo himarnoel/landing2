@@ -146,3 +146,16 @@ section {
   opacity: 0;
   pointer-events: none;
 }
+
+
+
+.splide__pagination {
+  margin: -60px !important; /* Adjust the value as needed */
+}
+/* Active pagination dot */
+.splide__pagination__page.is-active {
+  background-color: #FF3A3F !important; /* Active color */
+  margin-top: 40!important;
+  transform: scale(1.2) !important;
+  /* Optional: Enlarge active dot */
+}

@@ -3,7 +3,7 @@ import { logoIcon } from "../constants/media";
 import { socialMediaLinks } from "../constants/config";
 
 export default function Footer() {
-    return <footer className="w-full pb-4 bg-gray-normal md:pb-4 p-spacing-normal md:p-spacing-small flex flex-col items-center md:items-start gap-10">
+    return <footer className="w-full pb-4 bg-white md:pb-4 p-spacing-normal md:p-spacing-small flex flex-col items-center md:items-start gap-10">
         <div className="w-full h-1 bg-blue-normal rounded-full" />
 
         <img alt="" src={logoIcon} loading="lazy" className="w-40 object-contain" />
@@ -17,7 +17,7 @@ export default function Footer() {
                 ))}
             </nav>
 
-            <span className="pr-2 first-letter:capitalize">
+            <span className="pr-2 first-letter:capitalize text-[#656CE8] font-medium">
                 website designed by Waaki creative
             </span>
         </div>

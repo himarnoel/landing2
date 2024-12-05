@@ -6,7 +6,7 @@ import Expect from "../components/expect";
 import Enroll from "../components/enroll";
 import Waitlist from "../components/waitlist";
 import Overview from "../components/overview";
-import { engagements } from "../constants/config";
+import { engagements, faqGroups } from "../constants/config";
 import { FaArrowRightLong } from "react-icons/fa6";
 import {
   mainHeroImage,
@@ -14,6 +14,9 @@ import {
   smilyIcon,
   whiteImage,
 } from "../constants/media";
+
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
 
 export default function Page() {
   const [index, setIndex] = React.useState(0);
@@ -122,98 +125,39 @@ export default function Page() {
       <Waitlist />
 
       <WhyUs />
-      <section className="relative bg-[#FBCD78] my-20">
+     
+      <Enroll />
+      <section className="relative bg-[#DBEAFE] -z-10 py-20">
         <div className="w-full "></div>
-        <div className="w-full font-semibold max-w-[1000px] mx-auto min-h-screen  py-20">
-          <p className="text-start font-bold  xl:text-center text-2xl ">
-            Kidpreneur Bootcamp: equipping young minds to explore, create, and
-            grow into the leaders of tomorrow.
-          </p>
-          <p className="text-6xl mt-14 text-center ">F.A.Qs</p>
-          <div className="flex flex-col mt-10 text-2xl font-medium">
-            <p className="">1.Q: What is the AI training about?</p>
-            <p className=" ">
-              A: The training introduces kids to the basics of artificial
-              intelligence, how it works, and how AI is used in creative fields
-              such as design, art, and storytelling. It’s designed to be fun and
-              interactive!
-            </p>
-          </div>
-          <div className="flex flex-col mt-10 text-2xl font-medium">
-            <p className="">2.Q: Who can join the training?</p>
-            <p className=" ">
-              A: The training is open to kids aged 10 to 16 who are curious
-              about technology and AI. No prior experience is needed, just an
-              interest in learning and exploring AI.
-            </p>
-          </div>{" "}
-          <div className="flex flex-col mt-10 text-2xl font-medium">
-            <p className="">3.Q:How much does the training cost?</p>
-            <p className=" ">
-              A:The fee for the 2-day virtual training is N5,000.
-            </p>
-          </div>{" "}
-          <div className="flex flex-col mt-10 text-2xl font-medium">
-            <p className="">
-              4.Q:What will the kids learn during the training?
-            </p>
-            <p className=" ">
-              A: Participants will learn about AI concepts, how AI is used in
-              creative fields, hands-on activities related to AI, and how to
-              create basic AI projects. They'll also explore AI tools and
-              technologies used by professionals.
-            </p>
-          </div>
-          <div className="flex flex-col mt-10 text-2xl font-medium">
-            <p className="">5.Q: Is the training virtual or in person?</p>
-            <p className=" ">
-              A: The training will be conducted virtually over two days,
-              allowing kids to join from the comfort of their home.
-            </p>
-          </div>
-          <div className="flex flex-col mt-10 text-2xl font-medium">
-            <p className="">6.Q: What time will the training start and end?</p>
-            <p className=" ">
-              A: The training starts at 10:00 AM and ends at 11:30 AM each day.
-            </p>
-          </div>
-          <div className="flex flex-col mt-10 text-2xl font-medium">
-            <p className="">
-              7.Q: Do I need any special equipment or software for the training?
-            </p>
-            <p className=" ">
-              A: Kids will need a computer or tablet with an internet
-              connection. Most of the tools we use are web-based, so no special
-              software is required.
-            </p>
-          </div>
-          <div className="flex flex-col mt-10 text-2xl font-medium">
-            <p className="">8.Q: Will there be any assignments or homework?</p>
-            <p className=" ">
-              A: Yes, there will be a few fun activities and projects to
-              reinforce the learning. However, these will be light and designed
-              to engage kids, not overwhelm them.
-            </p>
-          </div>
-          <div className="flex flex-col mt-10 text-2xl font-medium">
-            <p className="">
-              9.Q: Will I receive a certificate after completing the training?
-            </p>
-            <p className=" ">
-              A:No, there will be no certificate of completion for this
-              training.
-            </p>
-          </div>
-          <div className="flex flex-col mt-10 text-2xl font-medium">
-            <p className="">10.Q: How do I register for the training?</p>
-            <p className=" ">
-              A: Registration and payment can be done by clicking on the
-              registration icon and filling out the required details.
-            </p>
-          </div>
+        <div className="w-full font-semibold px-4 xl:max-w-[1200px] mx-auto min-h-screen  py-10 pb-20">
+          <p className="text-6xl  text-center ">F.A.Qs</p>
+          <Splide
+            options={{
+              type: "loop",
+              perPage: 1,
+              autoplay: true,
+              interval: 5000,
+              arrows: false, // Disable navigation arrows
+              pagination: true, // Enable pagination (dots below the carousel)
+            }}
+            className="mt-2"
+          >
+            {faqGroups.map((group, index) => (
+              <SplideSlide key={index}>
+        
+                <div className="space-y-8">
+                  {group.map((faq, i) => (
+                    <div key={i} className="flex flex-col text-2xl font-medium">
+                      <p className="flex gap-1"><span className="">{i+1}.</span>{faq.question}</p>
+                      <p className="text-lg">{faq.answer}</p>
+                    </div>
+                  ))}
+                </div>
+              </SplideSlide>
+            ))}
+          </Splide>
         </div>
       </section>
-      <Enroll />
     </>
   );
 }
