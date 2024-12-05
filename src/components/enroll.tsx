@@ -9,7 +9,7 @@ export default function Enroll() {
         <div className="flex gap-8 basis-80 md:ml-10">
           <img
             src={nodeIcon}
-            className=" mb-auto h-20 xl:h-[16rem] object-contain absolute right-10 md:relative md:right-auto"
+            className=" mb-auto h-20 xl:h-[10rem] object-contain absolute right-10 md:relative md:right-auto"
           />
         </div>
        

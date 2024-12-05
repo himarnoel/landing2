@@ -123,29 +123,10 @@ export default function Page() {
       <Enroll />
       <section className="relative bg-[#DBEAFE] -z-10 py-20">
         <div className="w-full "></div>
-        <div className="w-full font-semibold px-4 xl:max-w-[1200px] mx-auto min-h-screen  py-10 pb-20">
+        <div className="w-full font-semibold px-4 xl:max-w-[1200px] mx-auto min-h-screen  py-8 pb-8">
           <p className="text-6xl  text-start ">F.A.Qs</p>
           <p className="mt-10 text-2xl mb-2">General Information</p>
-          {/* {faqGroups[0].map((faq, i) => (
-            <div key={i} className="flex flex-col gap-4 text-2xl font-medium">
-              <p className="flex gap-1">
-                <span className="">{faq.id}.</span>
-                {faq.question}
-              </p>
-              <p className="text-lg">{faq.answer}</p>
-            </div>
-          ))}
-
-          <p className="mt-10 mb-2 text-2xl">Course Details</p>
-          {faqGroups[1].map((faq, i) => (
-            <div key={i} className="flex flex-col gap-4 text-2xl font-medium">
-              <p className="flex gap-1">
-                <span className="">{faq.id}.</span>
-                {faq.question}
-              </p>
-              <p className="text-lg">{faq.answer}</p>
-            </div>
-          ))} */}
+         
           <Splide
             options={{
               type: "loop",
