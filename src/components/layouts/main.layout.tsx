@@ -13,7 +13,7 @@ export default function MainLayout() {
     return <>
         <Header />
 
-        <main className='w-full flex grow flex-col items-center justify-start min-h-screen'>
+        <main className='w-full flex grow  flex-col items-center justify-start min-h-screen'>
             <Outlet />
         </main>
 

@@ -5,7 +5,7 @@ export default function WhyUs() {
   return (
     <section className="w-full  flex  flex-col justify-between lg:items-baseline bg-yellow-normal px-spacing-normal lg:py-10 pb-0 relative before:h-80 before:w-80 before:left-0 before:absolute before:bg-red-normal before:rounded-full before:-translate-x-2/3 before:md:-translate-x-1/2">
       <div className="flex flex-1 flex-col basis-80 mt-10 items-center lg:max-w-[800px] md:items-start text-center md:text-left lg:py-10 lg:p-20 gap-10 justify-center">
-        <h2 className="text-3xl font-bold md:text-5xl z-20 ">
+        <h2 className="text-3xl font-bold md:text-5xl z-20  mt-10">
           Why STEM Teacher Training?
         </h2>
         <p className="z-10 md:text-2xl text-xl xl:text-2xl md:w-4/5">
@@ -19,12 +19,13 @@ export default function WhyUs() {
 
         <a
           href="#waitlist-form"
-          className="border-none outline-none bg-blue-normal text-white flex items-center gap-2 hover:gap-5 px-5 py-2 rounded-full transition-all"
+          className="border-none outline-none hidden bg-blue-normal text-white lg:flex items-center gap-2 hover:gap-5 px-5 py-2 rounded-full transition-all"
         >
           Join the Waitlist <FaArrowRightLong size={20} />
         </a>
       </div>
-      <img src={imag} alt="" className=" self-end  scale-75 w-[] lg:w-[20rem] xl:w-[50rem] lg:absolute -right-32 xl:right-0 bottom-0"/>
+      <img src={imag} alt="" className=" self-end object-contain  lg:scale-75 w-[40rem] lg:w-[20rem] xl:w-[50rem] lg:absolute -right-32 xl:right-0 bottom-0"/>
+      
     </section>
   );
 }

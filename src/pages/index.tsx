@@ -31,7 +31,7 @@ export default function Page() {
   return (
     <>
       <Hero image={mainHeroImage}>
-        <div className="flex flex-1 flex-col gap-2 text-center md:text-left w-full lg:max-w-[400px] xl:max-w-[40vw] mt-10">
+        <div className="flex flex-1 flex-col  gap-2  lg:mx-0 mx-auto lg:w-fit text-center md:text-left w-full lg:max-w-[400px] xl:max-w-[40vw] md:mt-10">
           <span className="text-blue-normal text-xl xl:text-3xl text-center lg:text-start">
             Welcome to STEM Teacher Training
           </span>
@@ -119,8 +119,20 @@ export default function Page() {
       <Waitlist />
 
       <WhyUs />
+      <a
+          href="#waitlist-form"
+          className="border-none outline-none lg:hidden mt-10 bg-blue-normal text-white w-fit  mx-auto flex items-center gap-2 hover:gap-5 px-5 py-2 rounded-full transition-all"
+        >
+          Join the Waitlist <FaArrowRightLong size={20} />
+        </a>
 
       <Enroll />
+      <a
+          href="#waitlist-form"
+          className="border-none outline-none lg:hidden mt-10 mb-8 bg-blue-normal text-white w-fit  mx-auto flex items-center gap-2 hover:gap-5 px-5 py-2 rounded-full transition-all"
+        >
+          Join the Waitlist <FaArrowRightLong size={20} />
+        </a>
       <section className="relative bg-[#DBEAFE] -z-10 py-20">
         <div className="w-full "></div>
         <div className="w-full font-semibold px-4 xl:max-w-[1200px] mx-auto min-h-screen  py-8 pb-8">
