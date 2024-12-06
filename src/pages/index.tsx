@@ -31,16 +31,16 @@ export default function Page() {
   return (
     <>
       <Hero image={mainHeroImage}>
-        <div className="flex flesx-1 flex-col gap-2 text-center md:text-left w-full lg:max-w-[400px] xl:max-w-[660px] mt-10">
-          <span className="text-blue-normal text-xl xl:text-3xl ">
+        <div className="flex flex-1 flex-col gap-2 text-center md:text-left w-full lg:max-w-[400px] xl:max-w-[40vw] mt-10">
+          <span className="text-blue-normal text-xl xl:text-3xl text-center lg:text-start">
             Welcome to STEM Teacher Training
           </span>
 
-          <h2 className="text-xl md:text-8xl lg:text-[3.8rem] xl:text-[4.8rem] lg:leading-[1.15]  font-semibold">
+          <h2 className="text-xl md:text-8xl lg:text-[3.8rem] xl:text-[4.8rem] lg:leading-[1.15] text-center lg:text-start  font-semibold">
             Transforming Classrooms for the Next Generation
           </h2>
 
-          <div className="  md:w-[90%] z-10 bg-white rounded-xl mt-10">
+          <div className="  lg:w-[90%] z-10 bg-white rounded-xl mt-10">
             <p className="z-50 text-sm md:text-base text-center md:p-4">
               This isn't your usual CPD, Oh No! <br />
               • It's a 360 degree transformative experience where you are
@@ -104,7 +104,7 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="w-full flex items-end justify-end mt-10 lg:mt-24  xl:mt-10">
+        <div className="w-full flex items-end justify-end mt-10 lg:my-0 lg:mt-24  xl:mt-10">
           <p className="font-medium   flex-none max-w-[800px]  w-full text-md md:text-2xl  text-justify md:text-start">
             STEM Teacher Training is designed to empower educators with the
             skills to thoughtfully connect different subjects, so that the

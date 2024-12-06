@@ -9,7 +9,7 @@ export default function Expect() {
       id="expect"
       className="w-full flex flex-col items-center gap-10 lg:mt-14 xl:mt-0  px-spacing-small md:px-spacing-large  xl:px-spacing-x-large"
     >
-      <div className="w-full flex flex-col p-4 md:p-12 gap-20 rounded-3xl md:rounded-[4em] bg-[#FFE154]">
+      <div className="w-full flex mt-10 flex-col p-4 md:p-12 gap-20 rounded-3xl md:rounded-[4em] bg-[#FFE154]">
         <header className="w-full gap-4 flex flex-col text-center items-center">
           <h2 className="text-2xl font-bold md:text-5xl">What to Expect</h2>
           <p className="md:text-2xl md:w-4/5">

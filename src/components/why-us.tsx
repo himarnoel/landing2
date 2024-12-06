@@ -3,12 +3,12 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import imag from "../assets/images/img.png"
 export default function WhyUs() {
   return (
-    <section className="w-full  flex items-center bg-yellow-normal px-spacing-normal py-10 relative before:h-80 before:w-80 before:left-0 before:absolute before:bg-red-normal before:rounded-full before:-translate-x-2/3 before:md:-translate-x-1/2">
-      <div className="flex flex-1 flex-col basis-80 mt-10 items-center max-w-[800px] md:items-start text-center md:text-left py-10 md:p-20 gap-10 justify-center">
-        <h2 className="text-3xl font-bold md:text-5xl">
+    <section className="w-full  flex  flex-col justify-between lg:items-baseline bg-yellow-normal px-spacing-normal lg:py-10 pb-0 relative before:h-80 before:w-80 before:left-0 before:absolute before:bg-red-normal before:rounded-full before:-translate-x-2/3 before:md:-translate-x-1/2">
+      <div className="flex flex-1 flex-col basis-80 mt-10 items-center lg:max-w-[800px] md:items-start text-center md:text-left lg:py-10 lg:p-20 gap-10 justify-center">
+        <h2 className="text-3xl font-bold md:text-5xl z-20 ">
           Why STEM Teacher Training?
         </h2>
-        <p className="z-10 md:text-2xl md:w-4/5">
+        <p className="z-10 md:text-2xl text-xl xl:text-2xl md:w-4/5">
           This isn't just a training course; it's a gateway to transforming your
           teaching practice. We believe every educator has the power to inspire
           curiosity and creativity in students. With our STEM Teacher Training,
@@ -24,7 +24,7 @@ export default function WhyUs() {
           Join the Waitlist <FaArrowRightLong size={20} />
         </a>
       </div>
-      <img src={imag} alt="" className="w-[50rem] absolute right-0 bottom-0"/>
+      <img src={imag} alt="" className=" self-end  scale-75 w-[] lg:w-[20rem] xl:w-[50rem] lg:absolute -right-32 xl:right-0 bottom-0"/>
     </section>
   );
 }
