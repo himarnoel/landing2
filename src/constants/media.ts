@@ -12,6 +12,6 @@ export { default as cta2Image } from "../assets/images/cta-2.png";
 export { default as cta3Image } from "../assets/images/cta-3.png";
 export { default as whiteImage } from "../assets/images/white.webp";
 export { default as mainHeroImage } from "../assets/images/side.png";
-export { default as enrollImage } from "../assets/images/enroll.webp";
+export { default as enrollImage } from "../assets/images/enroll.png";
 export { default as thankHeroImage } from "../assets/images/man 1.png";
 export { default as missedHeroImage } from "../assets/images/man 2.png";

@@ -22,16 +22,16 @@ export default function Cta() {
         The STEM Teacher training course is Ideal for
       </h2>
 
-      <div className="w-full flex  rounded-3xl bg-gray-normal overflow-hidden lg:h-[18rem] xl:lg:h-[28rem]">
+      <div className="w-full flex  !rounded-3xl bg-gray-normal overflow-hidden lg:h-[18rem] xl:lg:h-[28rem]">
         <img
           src={current.image}
           alt=""
-          className="flex-d1 basis-8s0 w-1/2 object-cover rounded-t-3x md:rounded-l-3x"
+          className=" w-1/2 object-cover !rounded-t-3x md:!rounded-l-3x"
         />
         <div
-          className={`flex flex-1 basis-80 items-center justify-center p-10 duration-500 rounded-b-3x md:rounded-r-3x transition-all ${current.className}  ${
-            current.id == 1 ? "!bg-[#7BD2E7]" : ""
-          }`}
+          className={`flex flex-1 basis-80 items-center justify-center p-10 duration-500 !rounded-b-3x md:!rounded-r-3x transition-all ${
+            current.className
+          }  ${current.id == 1 ? "!bg-[#7BD2E7]" : ""}`}
         >
           <p
             className={`${

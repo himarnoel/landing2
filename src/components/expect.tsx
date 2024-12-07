@@ -11,7 +11,7 @@ export default function Expect() {
     >
       <div className="w-full flex mt-10 flex-col p-4 md:p-12 gap-20 rounded-3xl md:rounded-[4em] bg-[#FFE154]">
         <header className="w-full gap-4 flex flex-col text-center items-center">
-          <h2 className="text-2xl font-bold md:text-5xl">What to Expect</h2>
+          <h2 className="text-2xl font-medium md:text-5xl">What to Expect</h2>
           <p className="md:text-2xl md:w-4/5">
             This course is more than theory. It's a hands-on, engaging
             expereicnce that you can put into practice immediately. Here's what
