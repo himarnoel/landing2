@@ -9,16 +9,24 @@ export default function Enroll() {
       className=" z-10 md:pt-10 mt-10 md:mt-0 md:pr-spacing-normal relative"
     >
       <div className="flex flex-wrap  flex-col w-full md:flex-row-reverse  relative z-50 gap-4 lg:px-10 md:translate-y-10 bg-white md:rounded-r-3xl">
-        <div className="flex gap-8 md:basiss-80 md:ml-10">
+        <div className="flex gap-8 md:basiss-80 md:ml-10 xl:ml-0 lg:hidden md:block">
           <img
             src={nodeIcon}
-            className=" mb-auto h-20 xl:h-[10rem] md:block hidden object-contain  bottom-20 absolute right-10 xl:right-0 xl:left-8 md:relative md:right-auto"
+            className=" mb-auto h-20 xl:h-[10rem] md:block hidden object-contain  bottom-20 absolute right-10 xl:-0 xl:left-0 md:relative md:right-auto"
           />
         </div>
 
+        <div className="lg:flex gap-8  xl:ml-0 md:hidden ">
+          <img
+            src={nodeIcon}
+            className=" mb-auto h-20 xl:h-[6rem] md:block hidden object-contain  bottom-20 absolute  xl:-0 xl:left-10  top-0 md:right-auto"
+          />
+        </div>
+
+
         <img
           src={enrollImage}
-          className="h-[17rem] md:h-96 xl:h-[24rem] md:block hidden md:absolute left-0 lg:left-64 xl:left-10 bottom-0 -z-20 w-full md:w-auto mt-auto object-contain"
+          className="h-[17rem] md:h-96 xl:h-[21rem] md:block hidden md:absolute left-0 lg:left-64 xl:left-14 bottom-0 -z-20 w-full md:w-auto mt-auto object-contain"
         />
 
         <div className="flex flex-1 px-8 flex-col basis-80 items-center md:items-end text-center md:text-right py-10 md:p-20 gap-10 justify-center">

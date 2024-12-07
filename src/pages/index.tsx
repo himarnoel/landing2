@@ -31,12 +31,12 @@ export default function Page() {
   return (
     <>
       <Hero image={mainHeroImage}>
-        <div className="flex flex-1 flex-col  gap-2  lg:mx-0 mx-auto lg:w-fit text-center md:text-left w-full lg:max-w-[400px] xl:max-w-[40vw] md:mt-10">
+        <div className="flex flex-1 flex-col  gap-2  lg:mx-0 mx-auto lg:w-fit text-center md:text-left w-full lg:max-w-[400px] xl:max-w-[48vw] md:mt-10">
           <span className="text-blue-normal text-xl xl:text-3xl text-center lg:text-start">
             Welcome to STEM Teacher Training
           </span>
 
-          <h2 className="text-xl md:text-8xl lg:text-[3.8rem] xl:text-[4.8rem] lg:leading-[1.15] text-center lg:text-start  font-semibold">
+          <h2 className="text-xl md:text-8xl lg:text-[3.8rem] xl:text-[4.8rem] lg:leading-[1.15] text-center lg:text-start  font-medium">
             Transforming Classrooms for the Next Generation
           </h2>
 
