@@ -26,10 +26,10 @@ export default function Cta() {
         <img
           src={current.image}
           alt=""
-          className=" w-1/2 object-cover !rounded-t-3x md:!rounded-l-3x"
+          className=" w-1/2 object-cover !rounded-t-3x md:!rounded-l-3xl"
         />
         <div
-          className={`flex flex-1 basis-80 items-center justify-center p-10 duration-500 !rounded-b-3x md:!rounded-r-3x transition-all ${
+          className={`flex flex-1 bassis-80 items-center justify-center p-10 duration-500 !rounded-b-3x md:!rounded-r-3xl transition-all ${
             current.className
           }  ${current.id == 1 ? "!bg-[#7BD2E7]" : ""}`}
         >
