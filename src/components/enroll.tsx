@@ -18,7 +18,7 @@ export default function Enroll() {
         />
 
         <div className="flex flex-1 px-8 flex-col basis-80 items-center md:items-end text-center md:text-right py-10 md:p-20 gap-10 justify-center">
-          <h2 className="text-3xl font-bold md:text-5xl">
+          <h2 className="text-3xl font-medium md:text-5xl">
             Enroll in STEM Teacher Training Today
           </h2>
           <p className="md:text-2xl md:w-4/5">
