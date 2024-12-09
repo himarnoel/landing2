@@ -51,6 +51,7 @@ body {
     width: min(35vw, 35vh);
     height: min(35vw, 35vh);
     transform: translateY(-50%);
+    z-index: -20;
     background: #7BD2E7;
 
     /* @media screen and (max-width: 760px) {
@@ -119,11 +120,9 @@ section {
 #root,
 #portal {
   width: 100%;
-  display: flex;
+ 
   overflow: auto;
-  position: relative;
-  align-items: center;
-  justify-content: center;
+
 }
 
 /* this is solely for root element */
