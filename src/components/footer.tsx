@@ -31,7 +31,7 @@ export default function Footer() {
         <a
           href={`https://waakicreative.com/`}
           target="_blank"
-          className="pr-2 first-letter:capitalize text-[#656CE8] font-medium"
+          className="pr-2 first-letter:capitalize text-[#1D29DE] font-medium"
         >
           website designed by Waaki creative
         </a>

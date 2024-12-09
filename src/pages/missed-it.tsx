@@ -92,7 +92,7 @@ export default function Page() {
         </ul>
       </section>
       <footer className="w-full pb-4  md:pb-4  p-spacing-normal md:p-spacing-small flex flex-col items-center md:items-start gap-10">
-      <div className="w-full h-1 bg-blue-normal rounded-full " />
+      <div className="w-full h-2 bg-blue-normal  " />
 
       <img
         alt=""
@@ -118,7 +118,7 @@ export default function Page() {
         <a
           href={`https://waakicreative.com/`}
           target="_blank"
-          className="pr-2 first-letter:capitalize text-[#656CE8] font-medium"
+          className="pr-2 first-letter:capitalize text-[#1D29DE] font-medium"
         >
           website designed by Waaki creative
         </a>
