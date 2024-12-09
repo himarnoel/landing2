@@ -13,13 +13,13 @@ export default function Page() {
       <Header />
 
       <div className="flex lg:flex-row flex-col items-center justify-between px-spacing-small md:px-spacing-normal mt-20">
-      <div className="flex  flex-col text-center items-center gap-10 lg:max-w-[450px] xl:max-w-[700px] w-full">
-          <div className=" z-10 gap-4 flex flex-col">
+      <div className="flex  flex-col text-center items-center lg:items-start gap-10 lg:max-w-[450px] xl:max-w-[700px] w-full">
+          <div className=" z-10 gap-4 flex flex-col text-center lg:text-start">
             <h2 className="text-3xl font-medium md:text-6xl lg:text-3xl xl:text-6xl">
               Thank You for Joining <br /> STEM Teacher Training
             </h2>
 
-            <p className="z-50 md:text-2xl text-center  md:text-left  font-medium">
+            <p className="z-50 md:text-2xl text-center   lg:text-start  font-medium">
               You've just taken an incredible step toward transforming your
               classroom, and we're thrilled to have you in our STEM Teacher
               Training community!
@@ -27,11 +27,11 @@ export default function Page() {
           </div>
 
           <div className=" z-10 gap-1 md:gap-4 flex flex-col">
-            <span className="text-green-normal font-medium text-2xl md:text-4xl">
+            <span className="text-green-normal lg:text-start font-medium text-2xl md:text-4xl">
               What's Next?
             </span>
 
-            <p className="z-50 md:text-2xl  md:text-left   font-medium">
+            <p className="z-50 md:text-2xl  lg:text-start   font-medium">
               We'll be sending a confirmation email shortly with everything you
               need to get started. Be sure to check your inbox (and double-check
               your spam folder, just in case!).
@@ -46,11 +46,11 @@ export default function Page() {
 
       <section
         id="overviews"
-        className="w-full flex flex-col gap- mt-[4rem] lg:mt-[1rem] xl:mt-[8.9rem] items-center justify-center px-spacing-small md:px-spacing-normal p-4 rounded-xl relative  h-[24rem] before:md:max-h-max before:h-[28rem] before:md:h-[30rem] before:rounded-full before:block before:absolute before:left-0 before:lg:mt-[18rem]  before:mt-[19rem] before:lg:-ml-64 before:-translate-x-1/2 before:md:translate-x-0 before:-translate-y-20 before:aspect-square before:bg-red-500 before:-z-10 "
+        className="w-full flex flex-col gap- mt-[4rem] lg:mt-[1rem] xl:mt-[6rem] items-center justify-center px-spacing-small md:px-spacing-normal p-4 rounded-xl relative  h-[24rem] before:md:max-h-max before:h-[28rem] before:md:h-[30rem] before:rounded-full before:block before:absolute before:left-0 before:lg:mt-[18rem]  before:mt-[19rem] before:lg:-ml-64 before:-translate-x-1/2 before:md:translate-x-0 before:-translate-y-20 before:aspect-square before:bg-red-500 before:-z-10 "
       >
         <div className="w-full relative rounded-[2em] px-10 bg-white shadow-md gap-10 xl:gap-2 lex flex-col items-center py-10 p-4">
           <header className="w-full flex flex-col items-center">
-            <h2 className="text-center text-xl md:text-4xl xl:text-5xl text-blue-normal">
+            <h2 className="text-center  text-xl md:text-4xl xl:text-5xl text-blue-normal">
               Get Ready to Transform Your Classroom
             </h2>
             <h3 className="text-center text-xl md:text-3xl text-blue-normal font-medium">
@@ -74,7 +74,7 @@ export default function Page() {
           <img
             src={microscopeIcon}
             alt=""
-            className="w-14 lg:w-28 object-contain absolute md:right-10  md:top-4"
+            className="w-14 lg:w-14 object-contain absolute md:right-10  md:top-4"
           />
         </div>{" "}
       </section>
